@@ -1,15 +1,21 @@
 <div align="center">
 
-# 🌳 Git Version Control & Collaboration Workflows
-### Trunk-Based Development, Branching Strategies & Merge Conflict Resolution
+# 📦 Git Repository Lifecycle & Branch Management
+### Repository Architecture, Remote Synchronization & Clean Commit History Demonstration
 
-[![Git](https://img.shields.io/badge/Git-VCS-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
-[![GitHub](https://img.shields.io/badge/GitHub-Workflows-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
+[![Git](https://img.shields.io/badge/VCS-Git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
 [![License](https://img.shields.io/badge/License-MIT-CEFF00?style=for-the-badge&logoColor=black)](LICENSE)
 
 <br/>
 
-**A technical reference repository demonstrating production-grade Git workflows, feature branching, pull request code reviews, rebase workflows, and 3-way merge conflict resolution.**
+Demonstrates core repository provisioning, remote configuration (`origin`, `upstream`), multi-branch synchronization, and safe rebasing methodologies in collaborative Git environments.
+
+<br/>
+
+[Overview](#-technical-overview) •
+[Features](#-key-features) •
+[Setup & Run](#-how-to-build-and-run) •
+[License](#-license)
 
 </div>
 
@@ -18,23 +24,31 @@
 ---
 
 ## 📌 Technical Overview
-This repository captures industry-standard version control methodologies used in collaborative agile engineering teams.
 
-### 💼 Key Workflows Demonstrated
-- **Feature Branching & Trunk-Based Development**: Clean commit history with atomic, semantic commit messages.
-- **3-Way Merge Conflict Resolution**: Identifying conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`), manual reconciliation, and clean fast-forward merges.
-- **GitHub Pull Request Workflows**: Issue tracking, branch protection, code review guidelines, and squashing commits.
+Demonstrates core repository provisioning, remote configuration (`origin`, `upstream`), multi-branch synchronization, and safe rebasing methodologies in collaborative Git environments.
+
+---
+
+## ✨ Key Features
+
+- **Remote Repository Configuration**: Establishing upstream remotes, tracking branches, and fetch/pull strategies.
+- **Branch Lifecycle Management**: Branch creation, pruning stale branches, and fast-forward merges.
+- **Repository Health & Gitignore**: Environment file exclusion rules and asset tracking best practices.
+
+---
+
+## 🚀 How to Build and Run
+
+### Steps
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/snaimio/git-vcc-repo.git
+   cd git-vcc-repo
+   ```
+2. Open the project in your IDE (Xcode / Android Studio / Browser) and run.
 
 ---
 
 ## 📄 License
+
 This project is licensed under the [MIT License](LICENSE).
-
----
-
-## 👨‍💻 Author
-**Sheikh Naim**  
-*Mobile & Full-Stack Web Developer*  
-- **LinkedIn**: [linkedin.com/in/snaimio](https://www.linkedin.com/in/snaimio)  
-- **GitHub**: [@snaimio](https://github.com/snaimio)  
-- **Portfolio**: [snaimio.github.io](https://snaimio.github.io)
